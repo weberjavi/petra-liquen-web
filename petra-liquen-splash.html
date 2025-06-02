@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petra Liquen</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .splash-container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        
+        /* Version 1: Full image background with white text */
+        .version-1 {
+            background-image: url('lichen-image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        
+        .title {
+            font-size: 7rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .petra {
+            line-height: 75px;
+            letter-spacing: 50px;
+        }
+        .liquen {
+            letter-spacing: 35px;
+        }
+        .subtitle {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            margin-top: 20px;
+        }
+        .email {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 10px;
+        }
+        .instagram {
+            display: block;
+            margin: 40px auto;
+        }
+        .instagram img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-container version-1">
+        <p class="title petra">Petra</p>
+        <p class="title liquen">Liquen</p>
+        <p class="subtitle">estudio de arquitectura</p>
+        <a class="email" href="mailto:estudio@petraliquen.com" target="_blank" rel="noreferrer">estudio@petraliquen.com</a>
+        <a class="instagram" href="https://www.instagram.com/petraliquen/" target="_blank" rel="noreferrer">
+            <img src="instagram-logo.png" alt="Instagram">
+        </a>
+    </div>
+</body>
+</html>
